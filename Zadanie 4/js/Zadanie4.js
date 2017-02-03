@@ -33,3 +33,5 @@ if (value < 0) {
 
 
 console.log(value);
+
+// Poprawione zadanie
