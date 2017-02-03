@@ -1,0 +1,22 @@
+.start {
+    padding: 5% 0;
+}
+.btn {
+    margin-bottom: 5%;
+}
+.userPick {
+    padding: 5%;
+}
+.userPick .btn {
+    width: 20%;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+p {
+    padding: 10px;
+}
