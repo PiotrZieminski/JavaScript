@@ -31,14 +31,16 @@ inputList.addEventListener('click', function (e) {
     checkOnClickButtonEvent('Przycisk zostal kliniety');
 });
 
-var TagName = document.getElementsByTagName('li');
-console.log(TagName);
+var tagName = document.getElementsByTagName('li');
+console.log(tagName);
 
 inputButton.addEventListener('click', function (e) {
-    for (var i = 0 ; i < TagName.length ; i++){
-        var nazwa = inputList[i];
-    }
-        inputList.innerHTML += '<li>' + 'item ' + i + '</li>';
+    //for (var i = 0 ; i < tagName.length ; i++){
+    //    var nazwa = inputList[i];
+    //}
+    nazwa = tagName.length;
+
+    inputList.innerHTML += '<li>' + 'item ' + nazwa + '</li>';
 });
 
 
