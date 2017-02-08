@@ -86,10 +86,10 @@ function checkRoundWinner(playerPick, computerPick) {
 
     if (winnerIs == 'player') {
         playerResultElem.innerHTML ="Wygrana!";
-        var zmienna = player.score++;
+        player.score++;
     } else if (winnerIs == 'computer') {
         computerResultElem.innerHTML ="Wygrana!";
-        var zmienna1= computer.score++;
+        computer.score++;
     }
     setGamePoints();
     endOfGame();
@@ -113,6 +113,9 @@ function endOfGame () {
         setGameElements('ended');
     } else if (computer.score === 10) {
         alert('Przegrałeś');
+        setGameElements('ended');
+    } else if (player.score === 10 & computer.score === 10) {
+        alert ('Remis');
         setGameElements('ended');
     }
 
