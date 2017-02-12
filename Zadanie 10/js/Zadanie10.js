@@ -34,6 +34,8 @@ inputList.addEventListener('click', function (e) {
 var tagName = document.getElementsByTagName('li');
 console.log(tagName);
 
+var nazwa = "";
+
 inputButton.addEventListener('click', function (e) {
     //for (var i = 0 ; i < tagName.length ; i++){
     //    var nazwa = inputList[i];
