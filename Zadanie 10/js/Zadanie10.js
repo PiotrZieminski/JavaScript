@@ -40,9 +40,7 @@ inputButton.addEventListener('click', function (e) {
     //for (var i = 0 ; i < tagName.length ; i++){
     //    var nazwa = inputList[i];
     //}
-    nazwa = tagName.length;
-
-    inputList.innerHTML += '<li>' + 'item ' + nazwa + '</li>';
+    inputList.innerHTML += '<li>' + 'item ' + tagName.length + '</li>';
 });
 
 
